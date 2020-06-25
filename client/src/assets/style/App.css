@@ -1,0 +1,121 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+main {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7a16fc), to(#7f23f8));
+  background: linear-gradient(#7a16fc, #7f23f8);
+  background-color: #7a16fc;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1em;
+}
+
+form input {
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  width: 76%;
+  color: #263238;
+  font-weight: 700;
+  background: rgba(139, 133, 133, 0.144);
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+  margin-bottom: 2em;
+  outline: 0;
+  font-weight: 400;
+}
+
+form input:focus:not(.submit) {
+  border: 2px solid rgba(0, 0, 0, 0.18);
+  border-radius: 20px;
+}
+
+button,
+input.submit {
+  cursor: pointer;
+  width: 70%;
+  letter-spacing: 1px;
+  border-radius: 5em;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#9c27b0), to(#e040fb));
+  background: linear-gradient(to right, #9c27b0, #e040fb);
+  border: 0;
+  padding: 10px 40px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  opacity: 0.9;
+}
+
+button:hover,
+input.submit:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a {
+  opacity: 0.7;
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #d37de2;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+h2 {
+  font-size: 2em;
+  color: #8c55aa;
+  font-weight: bold;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+
+.login-container {
+  background-color: #ffffff;
+  width: 400px;
+  border-radius: 1.5em;
+  -webkit-box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  padding: 2em 0;
+}
+/*# sourceMappingURL=App.css.map */
